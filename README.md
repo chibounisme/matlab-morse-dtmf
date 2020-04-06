@@ -1,4 +1,4 @@
-# Un convertisseur Texte-Morse en utilisant le décodage DTMF.
+# Un convertisseur Texte-Morse en utilisant le décodage DTMF
 
 Faisant partie de mes études, je propose comme application un convertisseur Texte-Morse.
 Vu le mécanisme sur lequel est basé le code Morse  (Les 'dots' et les 'dashes'), un texte "source" sera codé en code Morse et envoyé dans un canal téléphonique en utilisant le décodage DTMF.
