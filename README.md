@@ -11,8 +11,8 @@ Chaque caractère (alphanumérique) est reprsenté en code Morse par une combina
 
 Par exemple:
 Le mot 'SOS' se traduit en code Morse comme suit:
-- S : ...
-- O : ---
+- S: ...
+- O: ---
 - SOS: ...---...
 
 
