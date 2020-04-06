@@ -1,7 +1,7 @@
 # Un convertisseur Texte-Morse en utilisant le décodage DTMF
 
 Faisant partie de mes études, je propose comme application un convertisseur Texte-Morse.
-Vu le mécanisme sur lequel est basé le code Morse  (Les 'dots' et les 'dashes'), un texte "source" sera codé en code Morse et envoyé dans un canal téléphonique en utilisant le décodage DTMF.
+Vu le mécanisme sur lequel est basé le [code Morse](https://fr.wikipedia.org/wiki/Code_Morse_international)  (Les 'dots' et les 'dashes'), un texte "source" sera codé en code Morse et envoyé dans un canal téléphonique en utilisant le décodage [DTMF](https://fr.wikipedia.org/wiki/Code_DTMF).
 
 Le code Morse utilise deux types d'impulsions:
 - Des impulsions courtes représentées par un point => .
