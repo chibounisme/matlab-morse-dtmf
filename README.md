@@ -34,21 +34,20 @@ Je propose alors les deux fonctions suivantes:
 
 1. [signal] = text2morse(input_text, fs, dot_duration, output_file, playFile):  qui permet de générer un fichier WAV qui est la représentation en code  Morse d'un texte en entrée.
 
-Les paramètres sont:
-- input_text: Une variable contenant le texte d'entrée
-- fs: La fréquence d'échantillonage du fichier généré
-- dot_duration: La durée en secondes d'un point
-- output_file: Le nom du fichier généré
-- playFile: un paramètre booléen, qui si mis en 'true', jouera le fichier WAV généré.
+  Les paramètres sont:
+    - input_text: Une variable contenant le texte d'entrée
+    - fs: La fréquence d'échantillonage du fichier généré
+    - dot_duration: La durée en secondes d'un point
+    - output_file: Le nom du fichier généré
+    - playFile: un paramètre booléen, qui si mis en 'true', jouera le fichier WAV généré.
 
-La sortie représente le signal généré après le décodage DTMF en code Morse.
+  La sortie représente le signal généré après le décodage DTMF en code Morse.
 
 2. [output_text] = morse2text(input_file, fs, dot_duration): qui permet de décoder un message codé en code Morse à partir d'un fichier WAV lu en entrée.
 
-Les paramètres sont:
-- input_file: Le nom du fichier 
-- fs: La fréquence d'échantillonage du fichier WAV
-- dot_duration: La durée en secondes d'un point
+  Les paramètres sont:
+  - input_file: Le nom du fichier 
+  - fs: La fréquence d'échantillonage du fichier WAV
+  - dot_duration: La durée en secondes d'un point
 
-La seule sortie est une chaine de caractères représentant le texte source après décodage.
-
+  La seule sortie est une chaine de caractères représentant le texte source après décodage.
