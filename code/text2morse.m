@@ -23,7 +23,7 @@ function [sig] = text2morse(input_text, fs, dot_duration, output_file, playFile)
         end
         sig = [sig zeros(1, 7*round(dot_duration*fs))];
     end
-    disp(output_file);
+    sig = sig ./(max(abs(sig)));
     audiowrite(output_file, sig, fs);
     if playFile == true
         playblocking(audioplayer(sig, fs));
