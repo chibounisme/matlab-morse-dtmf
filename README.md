@@ -17,8 +17,8 @@ Le mot 'SOS' se traduit en code Morse comme suit:
 
 
 En utilisant le décodage DTMF, on assigne deux fréquences particuliéres pour chaque impulsion, on prend comme exemple:
-- 445 Hz et 1825Hz pour les impulsions courtes
-- 556 Hz et 1996Hz pour les impulsions longues
+- 445 Hz et 1825 Hz pour les impulsions courtes
+- 556 Hz et 1996 Hz pour les impulsions longues
 
 Ces impulsions doivent couler des intervalles de temps fixes.
 D'après Wikipedia, le code Morse international respecte les régles suivantes:
