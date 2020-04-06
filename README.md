@@ -7,6 +7,7 @@ Vu le mécanisme sur lequel est basé le code Morse  (Les 'dots' et les 'dashes'
 Le code Morse utilise deux types d'impulsions:
 - Des impulsions courtes représentées par un point => .
 - Des impulsions longues représentées par un trait => -
+
 Chaque caractère (alphanumérique) est reprsenté en code Morse par une combinaison unique de ces deux impulsions.
 
 Par exemple:
@@ -16,7 +17,7 @@ Le mot 'SOS' se traduit en code Morse comme suit:
 - SOS: ...---...
 
 
-En utilisant le dÃ©codage DTMF, on assigne deux fréquences particuliéres pour chaque impulsion, on prend comme exemple:
+En utilisant le décodage DTMF, on assigne deux fréquences particuliéres pour chaque impulsion, on prend comme exemple:
 - 445 Hz et 1825Hz pour les impulsions courtes
 - 556 Hz et 1996Hz pour les impulsions longues
 
