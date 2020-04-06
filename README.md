@@ -39,7 +39,7 @@ Les paramètres sont:
 - **fs**: La fréquence d'échantillonage du fichier généré
 - **dot_duration**: La durée en secondes d'un point
 - **output_file**: Le nom du fichier généré
-- **playFile**: un paramètre booléen, qui si mis en 'true', jouera le fichier WAV généré.
+- **playFile**: un paramètre booléen, qui si mis en 'true', permettra de faire jouer le fichier WAV généré.
 
 La sortie représente le signal généré après le décodage DTMF en code Morse.
 
