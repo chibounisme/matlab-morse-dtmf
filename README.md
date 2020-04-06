@@ -22,6 +22,7 @@ En utilisant le décodage DTMF, on assigne deux fréquences particuliéres pour 
 
 Ces impulsions doivent couler des intervalles de temps fixes.
 D'après Wikipedia, le code Morse international respecte les régles suivantes:
+
 1. Un tiret est égal à trois points.
 2. L’espacement entre deux éléments d’une même lettre est égal à un point.
 3. L’espacement entre deux lettres est égal à trois points.
@@ -31,7 +32,7 @@ D'ou la nécessité de définir la durée d'un point.
 
 Je propose alors les deux fonctions suivantes:
 
-1- [signal] = text2morse(input_text, fs, dot_duration, output_file, playFile):  qui permet de générer un fichier WAV qui est la représentation en code  Morse d'un texte en entrée.
+1. [signal] = text2morse(input_text, fs, dot_duration, output_file, playFile):  qui permet de générer un fichier WAV qui est la représentation en code  Morse d'un texte en entrée.
 
 Les paramètres sont:
 - input_text: Une variable contenant le texte d'entrée
@@ -42,7 +43,7 @@ Les paramètres sont:
 
 La sortie représente le signal généré après le décodage DTMF en code Morse.
 
-2- [output_text] = morse2text(input_file, fs, dot_duration): qui permet de décoder un message codé en code Morse à partir d'un fichier WAV lu en entrée.
+2. [output_text] = morse2text(input_file, fs, dot_duration): qui permet de décoder un message codé en code Morse à partir d'un fichier WAV lu en entrée.
 
 Les paramètres sont:
 - input_file: Le nom du fichier 
