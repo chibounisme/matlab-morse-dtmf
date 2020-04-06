@@ -25,6 +25,7 @@ function [sig] = text2morse(input_text, fs, dot_duration, output_file, playFile)
     end
     sig = sig ./(max(abs(sig)));
     audiowrite(output_file, sig, fs);
+    fprintf("Sauvegarde du signal généré dans '%s'!\n", output_file);
     if playFile == true
         playblocking(audioplayer(sig, fs));
     end
