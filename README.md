@@ -1,5 +1,4 @@
-# matlab_morse_dtmf
-## un convertisseur Texte-Morse en utilisant le décodage DTMF.
+# Un convertisseur Texte-Morse en utilisant le décodage DTMF.
 
 Faisant partie de mes études, je propose comme application un convertisseur Texte-Morse.
 Vu le mécanisme sur lequel est basé le code Morse  (Les 'dots' et les 'dashes'), un texte "source" sera codé en code Morse et envoyé dans un canal téléphonique en utilisant le décodage DTMF.
@@ -34,19 +33,19 @@ Je propose alors les deux fonctions suivantes:
 
 1- [signal] = text2morse(input_text, fs, dot_duration, output_file, playFile):  qui permet de générer un fichier mp3 qui est la représentation en code  Morse d'un texte en entrée.
 Les paramètres sont:
--- input_text: Une variable contenant le texte d'entrée
--- fs: La fréquence d'échantillonage du fichier généré
--- dot_duration: La durée en secondes d'un point
--- output_file: Le nom du fichier généré
--- playFile: un paramètre booléen, qui si mis en 'true', jouera le fichier mp3 généré.
+- input_text: Une variable contenant le texte d'entrée
+- fs: La fréquence d'échantillonage du fichier généré
+- dot_duration: La durée en secondes d'un point
+- output_file: Le nom du fichier généré
+- playFile: un paramètre booléen, qui si mis en 'true', jouera le fichier mp3 généré.
 
 La sortie représente le signal généré après le décodage DTMF en code Morse.
 
 2- [output_text] = morse2text(input_file, fs, dot_duration): qui permet de décoder un message codé en code Morse à partir d'un fichier mp3 lu en entrée.
 Les paramètres sont:
--- input_file: Le nom du fichier 
--- fs: La fréquence d'échantillonage du fichier mp3
--- dot_duration: La durée en secondes d'un point
+- input_file: Le nom du fichier 
+- fs: La fréquence d'échantillonage du fichier mp3
+- dot_duration: La durée en secondes d'un point
 
 La seule sortie est une chaine de caractères représentant le texte source après décodage.
 
