@@ -43,7 +43,7 @@ Les paramètres sont:
 
 La sortie représente le signal généré après le décodage DTMF en code Morse.
 
-**2.** __**[output_text] = morse2text(input_file, fs, dot_duration)**__: qui permet de décoder un message codé en code Morse à partir d'un fichier WAV lu en entrée. (Pas encore implémentée)
+**2.** __**[output_text] = morse2text(input_file, fs, dot_duration)**__: qui permet de décoder un message codé en code Morse à partir d'un fichier WAV lu en entrée.
 
 Les paramètres sont:
 - **input_file**: Le nom du fichier 
