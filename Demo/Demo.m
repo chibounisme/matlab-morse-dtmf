@@ -12,7 +12,7 @@ dot_duration = 0.05;
 % Utiliser une durée minimale dun point égale à 50 millisecondes!
 dot_duration = max(dot_duration, 0.05);
 out_file = 'out.wav';
-fprintf('Le message codé est %s!\n', in_txt);
+fprintf('Le message codé est: %s!\n', in_txt);
 out_sig = text2morse(in_txt, fs, dot_duration, out_file, true);
 
 % Représentation temporelle du signal
