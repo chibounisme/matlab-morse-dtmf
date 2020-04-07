@@ -53,5 +53,5 @@ Les paramètres sont:
 La seule sortie est une chaine de caractères représentant le texte source après décodage.
 
 N.B:
-- Pour des résultats consistents, utiliser une durée d'un point supérieur ou égale à 50 millisecondes.
+- Pour des résultats consistents, utiliser une durée d'un point supérieure ou égale à 50 millisecondes.
 - D'autres fonctions telles que **'signal2words'**, **'words2chars'**, **'chars2elems'** et **'detect_pulse'** sont nécessaires pour la bonne éxècution da la fonction **'morse2text'**.
