@@ -54,4 +54,4 @@ La seule sortie est une chaine de caractères représentant le texte source apr�
 
 N.B:
 - Pour des résultats consistents, utiliser une durée d'un point supérieur ou égale à 50 millisecondes.
-- D'autres fonctions telles que **'signal2words'**, **'words2chars'**, **'chars2elems'** et **'detect_pulse'**sont fournises pour la bonne éxècution da la fonction **morse2text**.
+- D'autres fonctions telles que **'signal2words'**, **'words2chars'**, **'chars2elems'** et **'detect_pulse'** sont fournises pour la bonne éxècution da la fonction **morse2text**.
